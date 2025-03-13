@@ -1,0 +1,724 @@
+{
+  "HTML": [
+    {
+      "question": "Which HTML tag is used to define an internal CSS?",
+      "options": ["<css>", "<style>", "<script>", "<head>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": ["<link>", "<a>", "<href>", "<hlink>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which tag is used to create a numbered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<list>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is the correct way to comment in HTML?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "' This is a comment",
+        "<!-- This is a comment -->"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which attribute specifies an alternate text for an image in HTML?",
+      "options": ["title", "alt", "src", "name"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which HTML attribute is used to specify a unique identifier for an element?",
+      "options": ["class", "name", "id", "key"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which tag is used to create an inline frame in HTML?",
+      "options": ["<frame>", "<frameset>", "<window>", "<iframe>"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which HTML element is used to define important text?",
+      "options": ["<strong>", "<important>", "<em>", "<b>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the correct syntax for creating a checkbox in HTML?",
+      "options": [
+        "<checkbox>",
+        "<input type='check'>",
+        "<input type='checkbox'>",
+        "<check>"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which attribute is used to specify that an input field must be filled out before submitting the form?",
+      "options": ["validate", "required", "mandatory", "checked"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which of the following is used to specify a form submission method?",
+      "options": ["method", "submit", "action", "send"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which tag is used to create a dropdown list in HTML?",
+      "options": ["<list>", "<dropdown>", "<select>", "<option>"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which HTML tag is used for creating a progress bar?",
+      "options": ["<progress>", "<bar>", "<meter>", "<status>"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Which HTML element is used to define a navigation menu?",
+      "options": ["<menu>", "<nav>", "<navigation>", "<ul>"],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which HTML5 API allows a web page to store data in a key-value format that persists even after the browser is closed?",
+      "options": ["Cookies", "Session Storage", "Local Storage", "IndexedDB"],
+      "correctOption": 2,
+      "points": 30
+    }
+  ],
+  "CSS": [
+    {
+      "question": "Which CSS property is used to change the text color of an element?",
+      "options": ["background-color", "color", "font-color", "text-color"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which CSS unit is relative to the font-size of the root element?",
+      "options": ["em", "rem", "vw", "vh"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which property controls the stacking order of elements?",
+      "options": ["position", "display", "z-index", "overflow"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is the default positioning of an HTML element?",
+      "options": ["absolute", "fixed", "relative", "static"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which CSS pseudo-class selects an element only when it has no child elements?",
+      "options": [":only-child", ":first-child", ":last-child", ":empty"],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "What value should be assigned to the display property to hide an element but still retain its space?",
+      "options": ["none", "hidden", "invisible", "visibility: hidden"],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Which of the following properties is NOT inherited by default?",
+      "options": ["color", "font-family", "border", "visibility"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What does the 'grid-template-areas' property define?",
+      "options": [
+        "The number of columns and rows in a grid",
+        "Named grid areas for arranging elements",
+        "The spacing between grid items",
+        "The direction of the grid layout"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which CSS function is used to create a gradient background?",
+      "options": [
+        "linear-gradient()",
+        "gradient-color()",
+        "background-gradient()",
+        "color-fade()"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of the 'clip-path' property in CSS?",
+      "options": [
+        "To crop an element into a custom shape",
+        "To apply a filter effect to an image",
+        "To define a shadow effect",
+        "To limit the maximum width of an element"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Which of the following CSS properties is used to apply 3D transformations?",
+      "options": ["transform", "perspective", "rotate3d", "all of the above"],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "Which property is used to define how flex items are aligned along the main axis?",
+      "options": ["align-items", "justify-content", "flex-direction", "order"],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which of the following is NOT a valid value for 'display' property?",
+      "options": ["grid", "inline-flex", "block-flex", "inline-block"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which CSS property allows you to apply a mask to an image?",
+      "options": ["clip-path", "mask-image", "filter", "opacity"],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which CSS feature enables animations when transitioning between two states?",
+      "options": ["keyframes", "transition", "animation", "transform"],
+      "correctOption": 1,
+      "points": 30
+    }
+  ],
+  "JS": [
+    {
+      "question": "Which keyword is used to declare a variable in JavaScript that cannot be reassigned?",
+      "options": ["var", "let", "const", "static"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which method is used to remove the last element from an array?",
+      "options": ["shift()", "pop()", "splice()", "slice()"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which of the following correctly checks if 'value' is a number in JavaScript?",
+      "options": [
+        "typeof value === 'number'",
+        "typeof value == Number",
+        "value instanceof Number",
+        "typeof value === Number"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What will `console.log(2 + '2')` output in JavaScript?",
+      "options": ["4", "'22'", "NaN", "TypeError"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which method is used to merge two or more arrays?",
+      "options": ["push()", "concat()", "join()", "merge()"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which JavaScript feature allows functions to access variables from their parent scope even after the parent function has executed?",
+      "options": ["Recursion", "Closure", "Callback", "Prototype"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which built-in JavaScript function is used to execute code asynchronously after a delay?",
+      "options": [
+        "setInterval()",
+        "setTimeout()",
+        "requestAnimationFrame()",
+        "asyncTimeout()"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What will `console.log(!!'false')` output?",
+      "options": ["true", "false", "undefined", "null"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What does the JavaScript 'localStorage' object do?",
+      "options": [
+        "Stores data temporarily for a session",
+        "Stores data permanently in the browser",
+        "Stores data in cookies",
+        "Stores data on the server"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which method is used to deep clone an object in JavaScript?",
+      "options": [
+        "JSON.parse(JSON.stringify(obj))",
+        "Object.assign({}, obj)",
+        "obj.clone()",
+        "spread operator ({...obj})"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What will the following code output? `console.log([...'hello'])`",
+      "options": [
+        "['hello']",
+        "['h', 'e', 'l', 'l', 'o']",
+        "'hello'",
+        "undefined"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which JavaScript method is used to make an asynchronous HTTP request?",
+      "options": [
+        "fetch()",
+        "axios.get()",
+        "XMLHttpRequest",
+        "All of the above"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "What is the purpose of the 'Symbol' data type in JavaScript?",
+      "options": [
+        "To store unique, immutable values",
+        "To represent a character in Unicode",
+        "To generate random numbers",
+        "To create private variables"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Which JavaScript feature allows an object to inherit properties from another object?",
+      "options": ["Prototype", "Closure", "Encapsulation", "Polymorphism"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "What will the following code output? `console.log([] == ![])`",
+      "options": ["true", "false", "undefined", "TypeError"],
+      "correctOption": 0,
+      "points": 30
+    }
+  ],
+  "React": [
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How does data flow naturally in React apps?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "How to pass data into a child component?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "When to use derived state?",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "What triggers a UI re-render in React?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "When do we directly \"touch\" the DOM in React?",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "In what situation do we use a callback to update state?",
+      "options": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "If we pass a function to useState, when will that function be called?",
+      "options": [
+        "On each re-render",
+        "Each time we update the state",
+        "Only on the initial render",
+        "The first time we update the state"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which hook to use for an API request on the component's initial render?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which variables should go into the useEffect dependency array?",
+      "options": [
+        "Usually none",
+        "All our state variables",
+        "All state and props referenced in the effect",
+        "All variables needed for clean up"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "An effect will always run on the initial render.",
+      "options": [
+        "True",
+        "It depends on the dependency array",
+        "False",
+        "In depends on the code in the effect"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "When will an effect run if it doesn't have a dependency array?",
+      "options": [
+        "Only when the component mounts",
+        "Only when the component unmounts",
+        "The first time the component re-renders",
+        "Each time the component is re-rendered"
+      ],
+      "correctOption": 3,
+      "points": 20
+    }
+  ],
+  "SQL": [
+    {
+      "question": "Which SQL clause is used to filter records based on a condition?",
+      "options": ["ORDER BY", "WHERE", "GROUP BY", "HAVING"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which SQL keyword is used to retrieve only unique values from a column?",
+      "options": ["DISTINCT", "UNIQUE", "FILTER", "EXCLUSIVE"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which SQL command is used to delete all records from a table but keep its structure?",
+      "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which SQL statement is used to fetch data from multiple tables using a common column?",
+      "options": ["JOIN", "COMBINE", "MERGE", "ATTACH"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which type of SQL JOIN returns only matching records between two tables?",
+      "options": ["LEFT JOIN", "INNER JOIN", "RIGHT JOIN", "FULL JOIN"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the primary purpose of the GROUP BY clause in SQL?",
+      "options": [
+        "To filter grouped records",
+        "To join multiple tables",
+        "To sort data in descending order",
+        "To group identical rows together"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Which SQL command is used to remove a column from an existing table?",
+      "options": [
+        "DELETE COLUMN",
+        "DROP COLUMN",
+        "REMOVE COLUMN",
+        "ALTER COLUMN"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which SQL statement is used to add a new column to an existing table?",
+      "options": [
+        "INSERT COLUMN",
+        "MODIFY TABLE",
+        "ALTER TABLE ADD COLUMN",
+        "UPDATE COLUMN"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What does a FOREIGN KEY in SQL do?",
+      "options": [
+        "Links one table to another",
+        "Defines a unique value constraint",
+        "Automatically indexes a column",
+        "Creates a new primary key"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which SQL keyword is used to retrieve records with a specific pattern in a string column?",
+      "options": ["MATCH", "LIKE", "FIND", "SEARCH"],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which SQL clause is used to filter records after they have been grouped?",
+      "options": ["WHERE", "HAVING", "FILTER", "GROUP BY"],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "What will happen if a DELETE command is run without a WHERE clause?",
+      "options": [
+        "It will delete only the first record",
+        "It will throw an error",
+        "It will delete all records in the table",
+        "It will delete records with NULL values only"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which SQL clause is used to specify the number of rows returned?",
+      "options": ["LIMIT", "FETCH", "TOP", "ROWNUM"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Which SQL operator is used to check if a value is within a given range?",
+      "options": ["BETWEEN", "IN", "WITHIN", "RANGE"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Which SQL statement is used to insert data into a table from another table?",
+      "options": [
+        "INSERT INTO SELECT",
+        "COPY INTO",
+        "MERGE INTO",
+        "TRANSFER INTO"
+      ],
+      "correctOption": 0,
+      "points": 30
+    }
+  ],
+  "GITHUB": [
+    {
+      "question": "Which command initializes a new Git repository?",
+      "options": ["git start", "git new", "git create", "git init"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which command is used to check the status of your working directory?",
+      "options": ["git check", "git status", "git log", "git show"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which command adds all changed files to the staging area?",
+      "options": [
+        "git stage .",
+        "git commit all",
+        "git add .",
+        "git push --all"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which command is used to commit changes with a message?",
+      "options": [
+        "git message",
+        "git commit -m 'message'",
+        "git commit --msg",
+        "git save"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which command is used to clone an existing repository from GitHub?",
+      "options": ["git copy", "git clone", "git pull", "git fetch"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which command is used to create a new branch in Git?",
+      "options": [
+        "git new branch",
+        "git branch create",
+        "git branch [branch-name]",
+        "git checkout -b"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which command is used to switch to another branch?",
+      "options": [
+        "git move",
+        "git checkout [branch-name]",
+        "git switch [branch-name]",
+        "git change"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which command is used to merge a branch into the current branch?",
+      "options": [
+        "git branch merge",
+        "git merge [branch-name]",
+        "git join [branch-name]",
+        "git integrate"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which command is used to view the commit history?",
+      "options": ["git history", "git show", "git log", "git commits"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which command is used to push changes to a remote repository?",
+      "options": ["git upload", "git send", "git push", "git deploy"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which command is used to fetch and merge changes from a remote repository?",
+      "options": ["git pull", "git update", "git sync", "git merge"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which command is used to discard local changes in your working directory?",
+      "options": ["git reset", "git clean", "git restore .", "git discard"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which command is used to delete a branch locally?",
+      "options": [
+        "git remove branch",
+        "git delete branch",
+        "git branch -d [branch-name]",
+        "git branch --remove [branch-name]"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which GitHub feature allows multiple people to work on a project collaboratively?",
+      "options": ["Branches", "Commits", "Repositories", "Pull Requests"],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "Which command is used to undo the last commit while keeping the changes?",
+      "options": [
+        "git revert HEAD",
+        "git reset --soft HEAD~1",
+        "git undo",
+        "git rollback"
+      ],
+      "correctOption": 1,
+      "points": 30
+    }
+  ]
+}
